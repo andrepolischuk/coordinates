@@ -12,7 +12,6 @@ npm install --save coordinates
 
 ```js
 var coordinates = require('coordinates');
-
 coordinates({x: 100, y: 100}); // {x: 100, y: 100, r: 141.421, fi: 0.785}
 coordinates({x: 50, y: 100}, {x: 100, y: 100}); // {x: -50, y: 0, r: 50, fi: 3.146}
 ```
