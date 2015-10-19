@@ -1,0 +1,27 @@
+{
+  "name": "coordinates",
+  "description": "Calculate relative coordinates",
+  "version": "0.0.0",
+  "keywords": [
+    "relative",
+    "cartesian",
+    "polar",
+    "coordinates"
+  ],
+  "repository": "andrepolischuk/coordinates",
+  "devDependencies": {
+    "approximately-equal": "^0.1.4",
+    "ava": "^0.2.0",
+    "babel": "^5.5.6",
+    "rimraf": "^2.4.3"
+  },
+  "main": "index.es5.js",
+  "scripts": {
+    "test": "babel-node test.js",
+    "transpile": "babel --stage 0 index.js --out-file index.es5.js",
+    "prepublish": "npm run transpile",
+    "postpublish": "rimraf index.es5.js"
+  },
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "MIT"
+}
