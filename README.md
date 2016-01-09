@@ -30,7 +30,7 @@ Point `x`, `y` coordinates
 
 #### origin
 
-Type: `object`
+Type: `object`  
 Default: `{x: 0, y: 0}`
 
 Origin `x`, `y` coordinates
