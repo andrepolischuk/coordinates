@@ -1,7 +1,7 @@
 {
   "name": "coordinates",
   "description": "Calculate relative coordinates",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "keywords": [
     "relative",
     "cartesian",
