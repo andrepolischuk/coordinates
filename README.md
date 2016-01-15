@@ -12,6 +12,7 @@ npm install --save coordinates
 
 ```js
 import coordinates from 'coordinates';
+
 coordinates({x: 100, y: 100}); // {x: 100, y: 100, r: 141.421, fi: 0.785}
 coordinates({x: 50, y: 100}, {x: 100, y: 100}); // {x: -50, y: 0, r: 50, fi: 3.146}
 ```
@@ -20,20 +21,20 @@ coordinates({x: 50, y: 100}, {x: 100, y: 100}); // {x: -50, y: 0, r: 50, fi: 3.1
 
 ### coordinates(point[, origin])
 
-Return relative coordinates in [Cartesian][cartesian] and [polar][polar] coordinate systems
+Return relative coordinates in [Cartesian][cartesian] and [polar][polar] coordinate systems.
 
 #### point
 
 Type: `object`
 
-Point `x`, `y` coordinates
+Point `x`, `y` coordinates.
 
 #### origin
 
 Type: `object`  
 Default: `{x: 0, y: 0}`
 
-Origin `x`, `y` coordinates
+Origin `x`, `y` coordinates.
 
 ## License
 
