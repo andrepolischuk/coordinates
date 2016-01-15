@@ -1,4 +1,4 @@
-export default (pointer, origin = {x: 0, y: 0}) => {
+export default function coordinates(pointer, origin = {x: 0, y: 0}) {
   const x = pointer.x - origin.x;
   const y = pointer.y - origin.y;
   const r = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
