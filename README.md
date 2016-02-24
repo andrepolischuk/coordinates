@@ -36,6 +36,12 @@ Default: `{x: 0, y: 0}`
 
 Origin `x`, `y` coordinates.
 
+## Related
+
+* [global-offset][global-offset] — element global offset
+* [is-pointer-inside][is-pointer-inside] — check if pointer is inside the element
+* [is-pointer-near][is-pointer-near] — check if pointer is near the element
+
 ## License
 
 MIT
@@ -45,3 +51,7 @@ MIT
 
 [cartesian]: https://en.wikipedia.org/wiki/Cartesian_coordinate_system
 [polar]: https://en.wikipedia.org/wiki/Polar_coordinate_system
+
+[global-offset]: https://github.com/andrepolischuk/global-offset
+[is-pointer-inside]: https://github.com/andrepolischuk/is-pointer-inside
+[is-pointer-near]: https://github.com/andrepolischuk/is-pointer-near
