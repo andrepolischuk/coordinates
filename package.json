@@ -1,6 +1,6 @@
 {
   "name": "coordinates",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Calculate relative coordinates",
   "main": "index.es5.js",
   "jsnext:main": "index.js",
